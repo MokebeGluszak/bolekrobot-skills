@@ -4,14 +4,14 @@ Skille z [poradnika bolekrobot.pl](https://bolekrobot.pl/blog/poradnik): Claude 
 
 ## Instalacja
 
-Wklej jedną linię w terminalu (PowerShell, Git Bash albo terminal macOS/Linux):
+Wklej jedną linię w terminalu (Windows PowerShell, Git Bash albo terminal macOS/Linux):
 
 ### claude-md-po-polsku
 
 Napisz albo popraw plik CLAUDE.md po polsku - krotki wywiad z uzytkownikiem (jedno pytanie na raz), potem plik z zasadami w czterech sekcjach (jezyk i ton, czego nie robic bez pytania, nazwy i porzadek, jak sprawdzic wynik). Uzywaj, gdy uzytkownik chce zalozyc plik z zasadami, mowi "napisz mi CLAUDE.md", "asystent nie pamieta moich zasad", "popraw moje zasady" albo gdy plik jest za dlugi lub sprzeczny.
 
 ```
-claude plugin marketplace add MokebeGluszak/bolekrobot-skills && claude plugin install claude-md-po-polsku@bolekrobot
+claude plugin marketplace add MokebeGluszak/bolekrobot-skills; claude plugin install claude-md-po-polsku@bolekrobot
 ```
 
 Poradnik: https://bolekrobot.pl/blog/poradnik/jak-napisac-claude-md-po-polsku
@@ -21,7 +21,7 @@ Poradnik: https://bolekrobot.pl/blog/poradnik/jak-napisac-claude-md-po-polsku
 Zasady pracy po polsku na Windows - nazwy plikow bez polskich znakow, zapis plikow w Unicode, cudzyslowy wokol sciezek ze spacjami, sprawdzenie powloki przed poleceniem. Uzywaj przy kazdym tworzeniu plikow i folderow, zapisie tekstu z polskimi znakami i uruchamianiu polecen w PowerShellu albo w powloce z Gita.
 
 ```
-claude plugin marketplace add MokebeGluszak/bolekrobot-skills && claude plugin install windows-po-polsku@bolekrobot
+claude plugin marketplace add MokebeGluszak/bolekrobot-skills; claude plugin install windows-po-polsku@bolekrobot
 ```
 
 Poradnik: https://bolekrobot.pl/blog/poradnik/claude-code-po-polsku-na-windows
