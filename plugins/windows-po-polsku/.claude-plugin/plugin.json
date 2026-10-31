@@ -1,0 +1,16 @@
+{
+  "name": "windows-po-polsku",
+  "version": "1.0.20261031",
+  "description": "Zasady pracy po polsku na Windows - nazwy plikow bez polskich znakow, zapis plikow w Unicode, cudzyslowy wokol sciezek ze spacjami, sprawdzenie powloki przed poleceniem. Uzywaj przy kazdym tworzeniu plikow i folderow, zapisie tekstu z polskimi znakami i uruchamianiu polecen w PowerShellu albo w powloce z Gita.",
+  "author": {
+    "name": "Bolek Robot",
+    "url": "https://bolekrobot.pl"
+  },
+  "homepage": "https://bolekrobot.pl/blog/poradnik/claude-code-po-polsku-na-windows",
+  "license": "MIT",
+  "keywords": [
+    "polski",
+    "windows",
+    "claude-code"
+  ]
+}
