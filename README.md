@@ -1,20 +1,20 @@
 # Skille Bolka do Claude Code
 
-Skille z [poradnika bolekrobot.pl](https://bolekrobot.pl/blog/poradnik): Claude Code po polsku, na Windows. Każdy skill to jeden plik z instrukcjami (SKILL.md), bez programów do uruchomienia.
+Skille z [poradnika bolekrobot.pl](https://bolekrobot.pl/poradniki): Claude Code po polsku, na Windows. Każdy skill to jeden plik z instrukcjami (SKILL.md), bez programów do uruchomienia.
 
 ## Instalacja
 
 Wklej jedną linię w terminalu (Windows PowerShell, Git Bash albo terminal macOS/Linux):
 
-### claude-md-po-polsku
+### md-po-polsku
 
 Napisz albo popraw plik CLAUDE.md po polsku - krotki wywiad z uzytkownikiem (jedno pytanie na raz), potem plik z zasadami w czterech sekcjach (jezyk i ton, czego nie robic bez pytania, nazwy i porzadek, jak sprawdzic wynik). Uzywaj, gdy uzytkownik chce zalozyc plik z zasadami, mowi "napisz mi CLAUDE.md", "asystent nie pamieta moich zasad", "popraw moje zasady" albo gdy plik jest za dlugi lub sprzeczny.
 
 ```
-claude plugin marketplace add MokebeGluszak/bolekrobot-skills; claude plugin install claude-md-po-polsku@bolekrobot
+claude plugin marketplace add MokebeGluszak/bolekrobot-skills; claude plugin install md-po-polsku@bolekrobot
 ```
 
-Poradnik: https://bolekrobot.pl/blog/poradnik/jak-napisac-claude-md-po-polsku
+Poradnik: https://bolekrobot.pl/poradniki/jak-napisac-claude-md-po-polsku
 
 ### windows-po-polsku
 
@@ -24,7 +24,7 @@ Zasady pracy po polsku na Windows - nazwy plikow bez polskich znakow, zapis plik
 claude plugin marketplace add MokebeGluszak/bolekrobot-skills; claude plugin install windows-po-polsku@bolekrobot
 ```
 
-Poradnik: https://bolekrobot.pl/blog/poradnik/claude-code-po-polsku-na-windows
+Poradnik: https://bolekrobot.pl/poradniki/claude-code-po-polsku-na-windows
 
 W samej rozmowie z Claude Code to samo robią polecenia `/plugin marketplace add` i `/plugin install`.
 

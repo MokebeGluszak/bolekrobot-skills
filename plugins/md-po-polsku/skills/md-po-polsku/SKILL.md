@@ -1,5 +1,5 @@
 ---
-name: claude-md-po-polsku
+name: md-po-polsku
 description: Napisz albo popraw plik CLAUDE.md po polsku - krotki wywiad z uzytkownikiem (jedno pytanie na raz), potem plik z zasadami w czterech sekcjach (jezyk i ton, czego nie robic bez pytania, nazwy i porzadek, jak sprawdzic wynik). Uzywaj, gdy uzytkownik chce zalozyc plik z zasadami, mowi "napisz mi CLAUDE.md", "asystent nie pamieta moich zasad", "popraw moje zasady" albo gdy plik jest za dlugi lub sprzeczny.
 ---
 

@@ -7,11 +7,11 @@
   },
   "plugins": [
     {
-      "name": "claude-md-po-polsku",
-      "source": "./plugins/claude-md-po-polsku",
+      "name": "md-po-polsku",
+      "source": "./plugins/md-po-polsku",
       "description": "Napisz albo popraw plik CLAUDE.md po polsku - krotki wywiad z uzytkownikiem (jedno pytanie na raz), potem plik z zasadami w czterech sekcjach (jezyk i ton, czego nie robic bez pytania, nazwy i porzadek, jak sprawdzic wynik). Uzywaj, gdy uzytkownik chce zalozyc plik z zasadami, mowi \"napisz mi CLAUDE.md\", \"asystent nie pamieta moich zasad\", \"popraw moje zasady\" albo gdy plik jest za dlugi lub sprzeczny.",
       "version": "1.0.20261101",
-      "homepage": "https://bolekrobot.pl/blog/poradnik/jak-napisac-claude-md-po-polsku",
+      "homepage": "https://bolekrobot.pl/poradniki/jak-napisac-claude-md-po-polsku",
       "category": "productivity"
     },
     {
@@ -19,7 +19,7 @@
       "source": "./plugins/windows-po-polsku",
       "description": "Zasady pracy po polsku na Windows - nazwy plikow bez polskich znakow, zapis plikow w Unicode, cudzyslowy wokol sciezek ze spacjami, sprawdzenie powloki przed poleceniem. Uzywaj przy kazdym tworzeniu plikow i folderow, zapisie tekstu z polskimi znakami i uruchamianiu polecen w PowerShellu albo w powloce z Gita.",
       "version": "1.0.20261031",
-      "homepage": "https://bolekrobot.pl/blog/poradnik/claude-code-po-polsku-na-windows",
+      "homepage": "https://bolekrobot.pl/poradniki/claude-code-po-polsku-na-windows",
       "category": "productivity"
     }
   ]
