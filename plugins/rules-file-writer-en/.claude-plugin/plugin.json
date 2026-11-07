@@ -1,0 +1,16 @@
+{
+  "name": "rules-file-writer-en",
+  "version": "1.0.0",
+  "description": "Write or fix a CLAUDE.md rules file - a short interview (one question at a time), then a file in four sections (language and tone, what not to do without asking, names and order, how to check the result). Use when the user wants a rules file, says \"write me a CLAUDE.md\", \"the assistant forgets my rules\", \"fix my rules\", or when the file is too long or contradicts itself.",
+  "author": {
+    "name": "Bolek Robot",
+    "url": "https://bolekrobot.pl"
+  },
+  "homepage": "https://bolekrobot.pl/en/guides/claude-md-file-claude-code-follows",
+  "license": "MIT",
+  "keywords": [
+    "english",
+    "windows",
+    "claude-code"
+  ]
+}

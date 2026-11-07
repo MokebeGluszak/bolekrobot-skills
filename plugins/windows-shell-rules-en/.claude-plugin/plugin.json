@@ -1,0 +1,16 @@
+{
+  "name": "windows-shell-rules-en",
+  "version": "1.0.0",
+  "description": "Working rules for Claude Code on Windows - plain ASCII file names, UTF-8 when saving text, quoted paths with spaces, check which shell will run a command (PowerShell vs Git Bash), one task per conversation. Use whenever you create files or folders, save non-English text, or run commands on a Windows machine.",
+  "author": {
+    "name": "Bolek Robot",
+    "url": "https://bolekrobot.pl"
+  },
+  "homepage": "https://bolekrobot.pl/en/guides/claude-code-on-windows-without-wsl",
+  "license": "MIT",
+  "keywords": [
+    "english",
+    "windows",
+    "claude-code"
+  ]
+}

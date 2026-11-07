@@ -1,6 +1,6 @@
 {
   "name": "bolekrobot",
-  "description": "Skille z poradnika bolekrobot.pl: Claude Code po polsku, na Windows, sprawdzone w codziennej pracy.",
+  "description": "Skills from the bolekrobot.pl guides (Polish and English): Claude Code on Windows, tested in daily use. / Skille z poradnika bolekrobot.pl.",
   "owner": {
     "name": "Bolek Robot",
     "url": "https://bolekrobot.pl"
@@ -20,6 +20,22 @@
       "description": "Zasady pracy po polsku na Windows - nazwy plikow bez polskich znakow, zapis plikow w Unicode, cudzyslowy wokol sciezek ze spacjami, sprawdzenie powloki przed poleceniem. Uzywaj przy kazdym tworzeniu plikow i folderow, zapisie tekstu z polskimi znakami i uruchamianiu polecen w PowerShellu albo w powloce z Gita.",
       "version": "1.0.20261031",
       "homepage": "https://bolekrobot.pl/poradniki/claude-code-po-polsku-na-windows",
+      "category": "productivity"
+    },
+    {
+      "name": "rules-file-writer-en",
+      "source": "./plugins/rules-file-writer-en",
+      "description": "Write or fix a CLAUDE.md rules file - a short interview (one question at a time), then a file in four sections (language and tone, what not to do without asking, names and order, how to check the result). Use when the user wants a rules file, says \"write me a CLAUDE.md\", \"the assistant forgets my rules\", \"fix my rules\", or when the file is too long or contradicts itself.",
+      "version": "1.0.0",
+      "homepage": "https://bolekrobot.pl/en/guides/claude-md-file-claude-code-follows",
+      "category": "productivity"
+    },
+    {
+      "name": "windows-shell-rules-en",
+      "source": "./plugins/windows-shell-rules-en",
+      "description": "Working rules for Claude Code on Windows - plain ASCII file names, UTF-8 when saving text, quoted paths with spaces, check which shell will run a command (PowerShell vs Git Bash), one task per conversation. Use whenever you create files or folders, save non-English text, or run commands on a Windows machine.",
+      "version": "1.0.0",
+      "homepage": "https://bolekrobot.pl/en/guides/claude-code-on-windows-without-wsl",
       "category": "productivity"
     }
   ]

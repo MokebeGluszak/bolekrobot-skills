@@ -26,6 +26,26 @@ claude plugin marketplace add MokebeGluszak/bolekrobot-skills; claude plugin ins
 
 Poradnik: https://bolekrobot.pl/poradniki/claude-code-po-polsku-na-windows
 
+### rules-file-writer-en
+
+Write or fix a CLAUDE.md rules file - a short interview (one question at a time), then a file in four sections (language and tone, what not to do without asking, names and order, how to check the result). Use when the user wants a rules file, says "write me a CLAUDE.md", "the assistant forgets my rules", "fix my rules", or when the file is too long or contradicts itself.
+
+```
+claude plugin marketplace add MokebeGluszak/bolekrobot-skills; claude plugin install rules-file-writer-en@bolekrobot
+```
+
+Poradnik: https://bolekrobot.pl/en/guides/claude-md-file-claude-code-follows
+
+### windows-shell-rules-en
+
+Working rules for Claude Code on Windows - plain ASCII file names, UTF-8 when saving text, quoted paths with spaces, check which shell will run a command (PowerShell vs Git Bash), one task per conversation. Use whenever you create files or folders, save non-English text, or run commands on a Windows machine.
+
+```
+claude plugin marketplace add MokebeGluszak/bolekrobot-skills; claude plugin install windows-shell-rules-en@bolekrobot
+```
+
+Poradnik: https://bolekrobot.pl/en/guides/claude-code-on-windows-without-wsl
+
 W samej rozmowie z Claude Code to samo robią polecenia `/plugin marketplace add` i `/plugin install`.
 
 ## Skąd to jest
